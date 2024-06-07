@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { NavigateTabs } from "./components/Tabs";
 import { ThemeProvider } from "./components/Theme/Provider";
@@ -11,6 +12,7 @@ function App() {
         </div>
         <NavigateTabs />
       </div>
+      <Footer />
     </ThemeProvider>
   );
 }
